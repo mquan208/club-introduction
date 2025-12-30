@@ -1,1 +1,1 @@
-Đừng hốc quá nhiều, vậy thôi
+Nếu có hốc thi đừng hốc quá nhiều, vậy thôi!
