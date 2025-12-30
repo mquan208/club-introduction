@@ -1,0 +1,180 @@
+body {
+    padding-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+    box-sizing: border-box;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.school-name {
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: brown;
+}
+.nav-right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #b30000;
+    font-weight: 500;
+}
+.logo {
+    height: 50px;
+    width: auto;
+}
+.hero {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("multimedia/intro.jpg") center/cover no-repeat;
+    transition: transform 0.6s ease;
+    z-index: 1;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 2;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.zoom-effect {
+    transform: scale(1.1);
+}
+
+.about-school {
+    max-width: 900px;
+    margin: 60px auto;
+    line-height: 1.8;
+}
+
+.aligncenter{
+    text-align: center;
+}
+.text{
+    color: brown;
+}
+.titleimg{
+    height: 300px;
+}
+ul{
+    list-style-type: disc;
+}
+.clbimg{
+    display: block;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:link{
+    color: brown;
+}
+a:visited{
+    color: #6b5b53;
+}
+hr{
+    color: brown;
+}
+.p{
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.p_indent{
+    text-indent: 2em;
+    margin-left: 2em;
+}
+.desc{
+    text-align: center;
+    font-style: italic;
+}
+
+.club-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.club-list li {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-club {
+    max-width: 900px;
+    margin: 30px auto;
+    line-height: 1.8;
+}
+footer {
+    padding: 40px;
+    font-size: 14px;
+}
+h2.text {
+    text-align: left;
+    margin-left: 2em;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th {
+    background-color: #f2f2f2;
+}
+.imgleft {
+    float: left;
+    width: 200px;
+    margin-right: 15px;
+}
+.imgright {
+    float: right;
+    width: 200px;
+    margin-left: 15px;
+}
+
+video {
+    width: 600px;
+}
+.footer-logo {
+    vertical-align: middle;
+    width: 30px;
+}
+.footer-link {
+    vertical-align: middle;
+}
+
+.credit {
+    text-align: center;
+    color: blueviolet;
+}
+
