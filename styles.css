@@ -113,10 +113,27 @@ hr{
     padding-bottom: 5px;
 }
 
-.p_indent{
-    text-indent: 2em;
-    margin-left: 2em;
+.content-wrapper {
+    max-width: 900px;
+    margin: 60px auto;
+    line-height: 1.8;
 }
+
+.p_indent {
+    max-width: 900px;
+    margin: 60px auto;
+    line-height: 1.8;
+    text-indent: 2em;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+.indent {
+    max-width: 900px;
+    margin: 60px auto;
+    line-height: 1.8;
+    margin-bottom: 1em;
+}
+
 .desc{
     text-align: center;
     font-style: italic;
@@ -153,13 +170,18 @@ th {
 }
 .imgleft {
     float: left;
-    width: 200px;
-    margin-right: 15px;
+    width: 250px; 
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
 }
+
 .imgright {
     float: right;
-    width: 200px;
-    margin-left: 15px;
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
 }
 
 video {
